@@ -35,7 +35,7 @@ Este reconhecimento é um prêmio internacional conferido pela Microsoft aos pro
 ### Testes de Unidade
 
 - [x] Objetivos (3:00)
-- [ ] Frameworks de testes (12:00)
+- [x] Frameworks de testes (12:00)
 - [ ] Padrões e Nomenclaturas (17:00)
 - [ ] A importância do Mock (7:00)
 - [ ] O básico sobre testes de unidade (26:00)
@@ -148,25 +148,25 @@ Para garantir qualidade.
 
 Testes de Caixa-Preta e Caixa-Branca
 
-#### Caixa-Preta
+#### **Caixa-Preta**
 
 - Testers execute functional and regression tests via user interface
   - E.g. functional tests, regression tests, UI tests
 
-#### Caixa-Branca
+#### **Caixa-Branca**
 
 - Testers (or developers) look directly at code to find bugs and erros
   - E.g. unit tests, load tests
 
-#### Baixo Nível / Alto Nível
+#### **Baixo Nível / Alto Nível**
 
 ![Baixo Nível / Alto Nível](images/a-importancia-de-testar/como-testar-baixo-nivel-alto-nivel.png)
 
-#### Quadrante Mágico do Teste Agil
+#### **Quadrante Mágico do Teste Agil**
 
 ![quadrante-magico-do-teste-agil](images/a-importancia-de-testar/como-testar-quadrante-magico-do-teste-agil.png)
 
-#### Consequências de não testar
+#### **Consequências de não testar**
 
 - Muitos bugs e problemas de qualidade
 - Falhas de codificação
@@ -262,7 +262,54 @@ O teste de carga é muito importante em aplicações Web e em aplicações que �
 
 ---
 
+### Frameworks de Testes
 
+#### **MSTest**
+
+É da própria Microsoft  
+
+#### Links
+
+[docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting?view=mstest-net-1.3.2)  
+[GitHub](https://github.com/microsoft/testfx)
+
+#### **NUnit**
+
+Framework muito consagrado.  
+É uma portabilidade do JUnit (Java)  
+
+##### Links
+
+[NUnit.org](https://nunit.org/)  
+[GitHub](https://github.com/nunit)
+
+#### **XUnit**
+
+- Escrito pelos criadores do NUnit
+- Compatível com Visual Studio
+- Utilizado pelo time de desenvolvimento do .NET Core e ASP.NET
+  - [Exemplo de uso pela própria Microsoft](https://github.com/dotnet/aspnetcore/blob/7a26d27e8b7f67a1ac80532e5872bfde6c28f952/src/Mvc/Mvc.Core/test/Filters/FilterProviderTest.cs)
+
+##### Instalação do framework
+
+```powershell
+Install-Package xunit
+```
+
+##### Instalação para reconhecimento do Visual Studio
+
+```powershell
+Install-Package xunit.runner.visualstudio
+```
+
+##### Links
+
+[xUnit.net](https://xunit.net/)  
+[GitHub](https://github.com/xunit/xunit)  
+
+##### *Obs.:*
+
+*vamos utilizar o **XUnit***
 
 ---
 ---

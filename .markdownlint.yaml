@@ -1,0 +1,16 @@
+# Configure: https://github.com/DavidAnson/vscode-markdownlint#configure
+# Rules: https://github.com/DavidAnson/markdownlint/blob/v0.22.0/doc/Rules.md
+
+# MD013
+line-length: false
+
+# MD024
+no-duplicate-header: false
+
+# MD046
+code-block-style:
+    style: fenced
+
+# MD033
+no-inline-html:
+    allowed_elements: [br]
