@@ -140,6 +140,8 @@ Este reconhecimento é um prêmio internacional conferido pela Microsoft aos pro
 
 ### Por que testar?
 
+Para garantir qualidade.
+
 ---
 
 ### Como testar?
