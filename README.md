@@ -175,6 +175,10 @@ Consequências de não testar
 
 ---
 
+### Regra 10 de Myers
+
+"O Custo da correção de defeitos é mais custoso quanto mais tarde o defeito é encontrado."
+
 ---
 ---
 ---
