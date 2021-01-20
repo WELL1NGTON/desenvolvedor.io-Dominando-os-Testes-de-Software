@@ -28,13 +28,13 @@ Este reconhecimento é um prêmio internacional conferido pela Microsoft aos pro
 - [x] Como testar? (14:00)
 - [x] Regra 10 de Myers (9:00)
 - [x] Mitos sobre os testes de software (16:00)
-- [ ] Tipos de testes mais comuns (20:00)
-- [ ] Teste os seus conhecimentos (2:00)
-- [ ] Teste os seus conhecimentos (3:00)
+- [x] Tipos de testes mais comuns (20:00)
+- [x] Teste os seus conhecimentos (2:00)
+- [x] Teste os seus conhecimentos (3:00)
 
 ### Testes de Unidade
 
-- [ ] Objetivos (3:00)
+- [x] Objetivos (3:00)
 - [ ] Frameworks de testes (12:00)
 - [ ] Padrões e Nomenclaturas (17:00)
 - [ ] A importância do Mock (7:00)
@@ -214,7 +214,7 @@ Quando precisamos escrever testes de unidade para a classe ex Pedido, essa bater
 
 Um teste de integração é aquele que testa a integração entre duas ou mais partes da sua aplicação.
 
-Ostes que você escreve para a sua classe PedidoService e PedidoRepository, por exemplo, onde seu teste vai até o banco de dados, é um teste de integração.
+Testes que você escreve para a sua classe PedidoService e PedidoRepository, por exemplo, onde seu teste vai até o banco de dados, é um teste de integração.
 
 De fato você está testando a integração da sua aplicaçãop com suas diversas partes, por exemplo o banco de dados, uma camada de serviços externo.
 
@@ -239,6 +239,30 @@ Existem alguns objetivos por trás do teste de carga:
 - Testar um possível balanceamento de carga no servidor ou até mesmo a escala elástica na nuvem.
 
 O teste de carga é muito importante em aplicações Web e em aplicações que é esperado um grande volume de requisições
+
+---
+
+## *Testes de Unidade*
+
+---
+
+### Objetivos
+
+- Frameworks
+- Nomenclaturas
+- Ferramentas
+- Escritas de testes
+- Features do framework de teste
+- Execução no VS, VSCode, Command Line
+- Mock
+- AutoMock
+- Fixture
+- Geração de dados
+- Fluent Assertions
+
+---
+
+
 
 ---
 ---
