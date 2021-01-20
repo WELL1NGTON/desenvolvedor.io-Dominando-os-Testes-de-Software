@@ -148,21 +148,25 @@ Para garantir qualidade.
 
 Testes de Caixa-Preta e Caixa-Branca
 
-Caixa-Preta
+#### Caixa-Preta
 
 - Testers execute functional and regression tests via user interface
   - E.g. functional tests, regression tests, UI tests
 
-Caixa-Branca
+#### Caixa-Branca
 
 - Testers (or developers) look directly at code to find bugs and erros
   - E.g. unit tests, load tests
 
-![Como Testar 01](images/a-importancia-de-testar/como-testar-baixo-nivel-alto-nivel.png)
+#### Baixo Nível / Alto Nível
+
+![Baixo Nível / Alto Nível](images/a-importancia-de-testar/como-testar-baixo-nivel-alto-nivel.png)
+
+#### Quadrante Mágico do Teste Agil
 
 ![quadrante-magico-do-teste-agil](images/a-importancia-de-testar/como-testar-quadrante-magico-do-teste-agil.png)
 
-Consequências de não testar
+#### Consequências de não testar
 
 - Muitos bugs e problemas de qualidade
 - Falhas de codificação
@@ -194,6 +198,47 @@ Consequências de não testar
 "Testes de unidade só funcionam se for com TDD"  
 "Testar manualmente é mais produtivo"  
 "Não consigo convencer meu gerente!"
+
+---
+
+### Tipos de testes mais comuns
+
+#### **Testes de Unidade**
+
+Um teste de unidade é aquele que testa uma única unidade do sistema. Realiza o teste de maneira isolada, geralmente simulando as prováveis dependências que aquela unidade tem.
+
+Em linguagens orientadas a objetos, é comum que a unidade seja uma classe.  
+Quando precisamos escrever testes de unidade para a classe ex Pedido, essa bateria de testes testará o funionamento da classe Pedido, isolada, sem interações com outras classes.
+
+#### **Testes de Integração**
+
+Um teste de integração é aquele que testa a integração entre duas ou mais partes da sua aplicação.
+
+Ostes que você escreve para a sua classe PedidoService e PedidoRepository, por exemplo, onde seu teste vai até o banco de dados, é um teste de integração.
+
+De fato você está testando a integração da sua aplicaçãop com suas diversas partes, por exemplo o banco de dados, uma camada de serviços externo.
+
+Estes testes garantem algo que os testes de unidade não garantem, eles garantem que as unidades da sua aplicação estão se integrando conforme o esperado.
+
+#### **Testes Automatizados**
+
+O teste automatizado é um teste de sistema, podemos considerar como um teste de aceitação, funciona como um teste de caixa preta, já que os sistema é testado de ponta a ponta através das oprações executadas no sistema.
+
+A automatização garante que todo o processo será executado da mesma maneira que fosse um usuário utilizando a aplicação.
+
+Pode ser considerado um teste de aceitação, pois neste teste além de garantir o funcionamento ponta a ponta, podemos validar características do negócio e funcionalidades.
+
+#### **Testes de carga**
+
+O teste de carga (load test) consiste em testar as capacidades da aplicação, muitas vezes até seu limite, de forma que a aplicação não consiga mais responder. Pode ser também considerado como um teste de stress.
+
+Existem alguns objetivos por trás do teste de carga:
+
+- Testar a performance do código e componente em situações extremas. Descobrir possíveis gargalos.
+- Testar como a aplicação irá se comportar com um determinado número de usuários simultâneos e garantir que irá atender a demanada.
+- Testar um possível balanceamento de carga no servidor ou até mesmo a escala elástica na nuvem.
+
+O teste de carga é muito importante em aplicações Web e em aplicações que é esperado um grande volume de requisições
 
 ---
 ---
