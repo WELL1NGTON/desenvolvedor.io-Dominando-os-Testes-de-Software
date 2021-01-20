@@ -24,8 +24,8 @@ Este reconhecimento é um prêmio internacional conferido pela Microsoft aos pro
 
 ### A importância de testar
 
-- [ ] Por que testar? (16:00)
-- [ ] Como testar? (14:00)
+- [x] Por que testar? (16:00)
+- [x] Como testar? (14:00)
 - [ ] Regra 10 de Myers (9:00)
 - [ ] Mitos sobre os testes de software (16:00)
 - [ ] Tipos de testes mais comuns (20:00)
@@ -145,6 +145,33 @@ Para garantir qualidade.
 ---
 
 ### Como testar?
+
+Testes de Caixa-Preta e Caixa-Branca
+
+Caixa-Preta
+
+- Testers execute functional and regression tests via user interface
+  - E.g. functional tests, regression tests, UI tests
+
+Caixa-Branca
+
+- Testers (or developers) look directly at code to find bugs and erros
+  - E.g. unit tests, load tests
+
+![Como Testar 01](images/a-importancia-de-testar/como-testar-baixo-nivel-alto-nivel.png)
+
+![quadrante-magico-do-teste-agil](images/a-importancia-de-testar/como-testar-quadrante-magico-do-teste-agil.png)
+
+Consequências de não testar
+
+- Muitos bugs e problemas de qualidade
+- Falhas de codificação
+- Possíveis atrasos na entrega
+- Perda de confiança do cliente
+- Desmotivação do time
+- Aumento na rotatividade de pessoas
+- Prejuízos financeiros
+- Possíveis implicações legais
 
 ---
 
