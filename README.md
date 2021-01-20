@@ -26,8 +26,8 @@ Este reconhecimento é um prêmio internacional conferido pela Microsoft aos pro
 
 - [x] Por que testar? (16:00)
 - [x] Como testar? (14:00)
-- [ ] Regra 10 de Myers (9:00)
-- [ ] Mitos sobre os testes de software (16:00)
+- [x] Regra 10 de Myers (9:00)
+- [x] Mitos sobre os testes de software (16:00)
 - [ ] Tipos de testes mais comuns (20:00)
 - [ ] Teste os seus conhecimentos (2:00)
 - [ ] Teste os seus conhecimentos (3:00)
@@ -178,6 +178,22 @@ Consequências de não testar
 ### Regra 10 de Myers
 
 "O Custo da correção de defeitos é mais custoso quanto mais tarde o defeito é encontrado."
+
+---
+
+### Mitos sobre os testes de software
+
+"Eu não tenho tempo de testar!"  
+"Testar é escrever o dobro de código!"  
+"Se fizer o código certinho não precisa testar"  
+"Testar é papel do testador"  
+"Que adianta eu testar se o resto da equipe não testa?"  
+"Os testes garantem 100% de software livre de erros"  
+"Se passou no teste é porque não tem bug"  
+"Eu já terminei. Só falta testar"  
+"Testes de unidade só funcionam se for com TDD"  
+"Testar manualmente é mais produtivo"  
+"Não consigo convencer meu gerente!"
 
 ---
 ---
