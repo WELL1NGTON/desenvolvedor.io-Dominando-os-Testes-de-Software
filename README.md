@@ -37,7 +37,7 @@ Este reconhecimento é um prêmio internacional conferido pela Microsoft aos pro
 - [x] Objetivos (3:00)
 - [x] Frameworks de testes (12:00)
 - [x] Padrões e Nomenclaturas (17:00)
-- [ ] A importância do Mock (7:00)
+- [x] A importância do Mock (7:00)
 - [ ] O básico sobre testes de unidade (26:00)
 - [ ] Asserções (Assert) (19:00)
 - [ ] Utilizando Traits (14:00)
@@ -125,6 +125,12 @@ Este reconhecimento é um prêmio internacional conferido pela Microsoft aos pro
 ### Encerramento
 
 - [ ] Palavras Finais (8:00)
+
+---
+
+## Anotações
+
+[Anotações](ANOTACOES.md)
 
 ---
 ---

@@ -232,5 +232,38 @@ Obs.: Pode "usar vários padrões"/"misturar padrões" que melhor se adquem a ca
 - [AspNetCore - RequestSizeLimitFilterTest.cs](https://github.com/dotnet/aspnetcore/blob/7a26d27e8b7f67a1ac80532e5872bfde6c28f952/src/Mvc/Mvc.Core/test/Filters/RequestSizeLimitFilterTest.cs) <!-- Não foi utilizada nenhuma das nomenclaturas, mas está claro a escrita dos testes (porém teriasido melhor fazer de forma mais expressiva)  -->
 
 ---
+
+## A importância do Mock
+
+### O que é um Mock?
+
+Objetos Mock, objetos simulados ou simplemente Mock (do inglês Mock object) são objetos que simulam o comportamento de objetos de forma controlada.
+
+São normalmente criados para testar o comportamento de outros objesto. Em outras palavras, os objetos mock são objetos "falsos" que simulam o comportamento de uma classe ou objeto "real" para que possamos focar o teste na unidade a ser testada.
+
+Uma vantagem do Mock é que o objeto simulado pode ser criado dinamicamente através de um framework de Mock e poupando o desenvolvedor ter que criar uma classe física para simular aquele objeto.
+
+Uma classe física que simula o objeto costuma ser chamada de Fake, mas na teoria é um Mock, a diferença é que foi criada manualmente.
+
+### MOQ
+
+- Realize Mock com facilidade
+- Compatível com Visual Studio
+- Utilizado pelo time de desenvolvimento do .NET Core e ASP.NET
+
+Instalação do framework
+
+```powershell
+Install-Package Moq
+```
+
+#### Links
+
+[Quickstart](https://github.com/Moq/moq4/wiki/Quickstart)  
+[GitHub](https://github.com/moq/moq4)  
+
+---
+
+---
 ---
 ---
