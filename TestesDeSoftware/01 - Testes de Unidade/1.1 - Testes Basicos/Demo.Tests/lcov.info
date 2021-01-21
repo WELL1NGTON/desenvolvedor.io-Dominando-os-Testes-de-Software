@@ -1,0 +1,113 @@
+SF:C:\dev\desenvolvedor.io\03-dominando-os-testes-de-software\TestesDeSoftware\01 - Testes de Unidade\1.1 - Testes Basicos\Demo\Calculadora.cs
+FN:7,System.Double Demo.Calculadora::Somar(System.Double,System.Double)
+FNDA:9,System.Double Demo.Calculadora::Somar(System.Double,System.Double)
+DA:8,9
+DA:9,9
+DA:10,9
+FN:12,System.Double Demo.Calculadora::Dividir(System.Double,System.Double)
+FNDA:1,System.Double Demo.Calculadora::Dividir(System.Double,System.Double)
+DA:13,1
+DA:14,1
+DA:18,2
+DA:20,0
+DA:21,0
+BRDA:18,13,0,1
+BRDA:18,13,1,0
+LF:8
+LH:6
+BRF:2
+BRH:1
+FNF:2
+FNH:2
+end_of_record
+SF:C:\dev\desenvolvedor.io\03-dominando-os-testes-de-software\TestesDeSoftware\01 - Testes de Unidade\1.1 - Testes Basicos\Demo\Funcionario.cs
+FN:9,System.String Demo.Pessoa::get_Nome()
+FNDA:16,System.String Demo.Pessoa::get_Nome()
+DA:10,16
+FN:10,System.String Demo.Pessoa::get_Apelido()
+FNDA:3,System.String Demo.Pessoa::get_Apelido()
+DA:11,3
+FN:15,System.Double Demo.Funcionario::get_Salario()
+FNDA:26,System.Double Demo.Funcionario::get_Salario()
+DA:16,26
+FN:16,Demo.NivelProfissional Demo.Funcionario::get_NivelProfissional()
+FNDA:46,Demo.NivelProfissional Demo.Funcionario::get_NivelProfissional()
+DA:17,46
+FN:17,System.Collections.Generic.IList`1<System.String> Demo.Funcionario::get_Habilidades()
+FNDA:32,System.Collections.Generic.IList`1<System.String> Demo.Funcionario::get_Habilidades()
+DA:18,32
+FN:27,System.Void Demo.Funcionario::DefinirSalario(System.Double)
+FNDA:15,System.Void Demo.Funcionario::DefinirSalario(System.Double)
+DA:28,15
+DA:29,16
+DA:31,14
+DA:32,20
+DA:33,10
+DA:34,12
+DA:35,14
+BRDA:29,15,0,1
+BRDA:29,15,1,14
+BRDA:32,50,0,6
+BRDA:32,50,1,8
+BRDA:33,72,0,8
+BRDA:33,72,1,0
+BRDA:33,91,0,2
+BRDA:33,91,1,6
+BRDA:34,120,0,6
+BRDA:34,120,1,14
+FN:37,System.Void Demo.Funcionario::DefinirHabilidades()
+FNDA:14,System.Void Demo.Funcionario::DefinirHabilidades()
+DA:38,14
+DA:39,14
+DA:40,14
+DA:41,14
+DA:42,14
+DA:43,14
+DA:44,14
+DA:46,14
+DA:48,14
+DA:51,2
+DA:52,2
+DA:54,6
+DA:55,6
+DA:56,6
+DA:58,14
+BRDA:48,50,0,12
+BRDA:48,50,1,2
+BRDA:48,56,1,6
+BRDA:48,56,0,14
+FN:19,System.Void Demo.Funcionario::.ctor(System.String,System.Double)
+FNDA:15,System.Void Demo.Funcionario::.ctor(System.String,System.Double)
+DA:20,15
+DA:21,15
+DA:22,15
+DA:23,15
+DA:24,14
+DA:25,14
+BRDA:22,15,0,14
+BRDA:22,15,1,1
+FN:70,Demo.Funcionario Demo.FuncionarioFactory::Criar(System.String,System.Double)
+FNDA:7,Demo.Funcionario Demo.FuncionarioFactory::Criar(System.String,System.Double)
+DA:71,7
+DA:72,7
+DA:73,6
+LF:36
+LH:36
+BRF:16
+BRH:15
+FNF:9
+FNH:9
+end_of_record
+SF:C:\dev\desenvolvedor.io\03-dominando-os-testes-de-software\TestesDeSoftware\01 - Testes de Unidade\1.1 - Testes Basicos\Demo\StringsTools.cs
+FN:5,System.String Demo.StringsTools::Unir(System.String,System.String)
+FNDA:6,System.String Demo.StringsTools::Unir(System.String,System.String)
+DA:6,6
+DA:7,6
+DA:8,6
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record

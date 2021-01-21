@@ -13,8 +13,19 @@ Exemplo: meu ```settings.json``` do vscode:
 ```json
 {
     "dotnet-test-explorer.testProjectPath": "/01 - Testes de Unidade/1.1 - Testes Basicos/Demo.Tests",
-    "dotnet-test-explorer.treeMode": "full"
+    "dotnet-test-explorer.treeMode": "full",
+    "dotnet-test-explorer.autoExpandTree": true
 }
 ```
 
 Obs.: treeMode é bem melhor que o default.
+
+Obs.2.: A configuração certa caso funcionasse seria:
+
+```json
+{
+    "dotnet-test-explorer.testProjectPath": "**/*.Tests.csproj",
+    "dotnet-test-explorer.treeMode": "full",
+    "dotnet-test-explorer.autoExpandTree": true
+}
+```

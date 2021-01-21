@@ -264,7 +264,24 @@ Install-Package Moq
 
 ---
 
-## O básico sobre testes de unidade
+## Analisando a cobertura de código dos testes
+
+[pacote coverlet.msbuild](https://www.nuget.org/packages/coverlet.msbuild)  
+[Plugin Coverage Gutters para VSCode](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)  
+[Code Coverage no C# com VSCode](https://medium.com/@lorranpalmeira/code-coverage-no-c-com-vscode-cfa3cb6c89d0)  
+
+---
+---
+---
+
+## Pacotes utilizados nos testes
+
+[MOQ](https://github.com/moq/moq4)  
+[Moq.AutoMocker](https://github.com/moq/Moq.AutoMocker)  
+[XUnit](https://xunit.net/)  
+[xunit.runner.visualstudio](https://github.com/xunit/visualstudio.xunit)  
+[Fluent Assertions](https://fluentassertions.com/)  
+[Bogus for .NET](https://github.com/bchavez/Bogus)  
 
 ---
 ---

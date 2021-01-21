@@ -1,0 +1,293 @@
+SF:C:\dev\desenvolvedor.io\03-dominando-os-testes-de-software\TestesDeSoftware\01 - Testes de Unidade\2.2 - Features\Features\Core\CpfValidation.cs
+FN:5,System.Boolean Features.Core.CpfValidation::EhValido(System.String)
+FNDA:11,System.Boolean Features.Core.CpfValidation::EhValido(System.String)
+DA:6,11
+DA:7,11
+DA:8,11
+DA:9,11
+DA:10,11
+DA:11,11
+DA:12,2
+DA:13,9
+DA:14,9
+DA:16,180
+DA:17,81
+DA:18,9
+DA:19,9
+DA:20,4
+DA:22,5
+DA:23,9
+DA:24,9
+DA:25,9
+DA:26,198
+DA:27,90
+DA:28,9
+DA:29,9
+DA:30,1
+DA:32,8
+DA:33,9
+DA:34,9
+DA:35,11
+BRDA:11,97,0,2
+BRDA:11,97,1,9
+BRDA:16,170,1,81
+BRDA:16,170,0,9
+BRDA:19,187,0,4
+BRDA:19,187,1,5
+BRDA:26,272,1,90
+BRDA:26,272,0,9
+BRDA:29,289,0,1
+BRDA:29,289,1,8
+LF:27
+LH:27
+BRF:10
+BRH:10
+FNF:1
+FNH:1
+end_of_record
+SF:C:\dev\desenvolvedor.io\03-dominando-os-testes-de-software\TestesDeSoftware\01 - Testes de Unidade\2.2 - Features\Features\Core\Entity.cs
+FN:7,System.Guid Features.Core.Entity::get_Id()
+FNDA:491,System.Guid Features.Core.Entity::get_Id()
+DA:8,491
+FN:8,FluentValidation.Results.ValidationResult Features.Core.Entity::get_ValidationResult()
+FNDA:60,FluentValidation.Results.ValidationResult Features.Core.Entity::get_ValidationResult()
+DA:9,60
+FN:11,System.Boolean Features.Core.Entity::EhValido()
+FNDA:0,System.Boolean Features.Core.Entity::EhValido()
+DA:12,0
+DA:13,0
+FN:16,System.Boolean Features.Core.Entity::Equals(System.Object)
+FNDA:0,System.Boolean Features.Core.Entity::Equals(System.Object)
+DA:17,0
+DA:18,0
+DA:20,0
+DA:21,0
+DA:23,0
+DA:24,0
+BRDA:20,14,0,0
+BRDA:20,14,1,0
+BRDA:21,26,0,0
+BRDA:21,26,1,0
+FN:26,System.Boolean Features.Core.Entity::op_Equality(Features.Core.Entity,Features.Core.Entity)
+FNDA:0,System.Boolean Features.Core.Entity::op_Equality(Features.Core.Entity,Features.Core.Entity)
+DA:27,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+BRDA:28,2,0,0
+BRDA:28,2,1,0
+BRDA:28,13,0,0
+BRDA:28,13,1,0
+BRDA:31,20,0,0
+BRDA:31,20,1,0
+BRDA:31,31,0,0
+BRDA:31,31,1,0
+FN:37,System.Boolean Features.Core.Entity::op_Inequality(Features.Core.Entity,Features.Core.Entity)
+FNDA:0,System.Boolean Features.Core.Entity::op_Inequality(Features.Core.Entity,Features.Core.Entity)
+DA:38,0
+DA:39,0
+DA:40,0
+FN:42,System.Int32 Features.Core.Entity::GetHashCode()
+FNDA:50,System.Int32 Features.Core.Entity::GetHashCode()
+DA:43,50
+DA:44,50
+DA:45,50
+FN:47,System.String Features.Core.Entity::ToString()
+FNDA:0,System.String Features.Core.Entity::ToString()
+DA:48,0
+DA:49,0
+DA:50,0
+LF:26
+LH:5
+BRF:12
+BRH:0
+FNF:8
+FNH:3
+end_of_record
+SF:C:\dev\desenvolvedor.io\03-dominando-os-testes-de-software\TestesDeSoftware\01 - Testes de Unidade\2.2 - Features\Features\Clientes\Cliente.cs
+FN:8,System.String Features.Clientes.Cliente::get_Nome()
+FNDA:872,System.String Features.Clientes.Cliente::get_Nome()
+DA:9,872
+FN:9,System.String Features.Clientes.Cliente::get_Sobrenome()
+FNDA:872,System.String Features.Clientes.Cliente::get_Sobrenome()
+DA:10,872
+FN:10,System.DateTime Features.Clientes.Cliente::get_DataNascimento()
+FNDA:466,System.DateTime Features.Clientes.Cliente::get_DataNascimento()
+DA:11,466
+FN:11,System.DateTime Features.Clientes.Cliente::get_DataCadastro()
+FNDA:416,System.DateTime Features.Clientes.Cliente::get_DataCadastro()
+DA:12,416
+FN:12,System.String Features.Clientes.Cliente::get_Email()
+FNDA:876,System.String Features.Clientes.Cliente::get_Email()
+DA:13,876
+FN:13,System.Boolean Features.Clientes.Cliente::get_Ativo()
+FNDA:1219,System.Boolean Features.Clientes.Cliente::get_Ativo()
+DA:14,1219
+FN:32,System.String Features.Clientes.Cliente::NomeCompleto()
+FNDA:0,System.String Features.Clientes.Cliente::NomeCompleto()
+DA:33,0
+DA:34,0
+DA:35,0
+FN:37,System.Boolean Features.Clientes.Cliente::EhEspecial()
+FNDA:0,System.Boolean Features.Clientes.Cliente::EhEspecial()
+DA:38,0
+DA:39,0
+DA:40,0
+BRDA:39,27,0,0
+BRDA:39,27,1,0
+FN:42,System.Void Features.Clientes.Cliente::Inativar()
+FNDA:0,System.Void Features.Clientes.Cliente::Inativar()
+DA:43,0
+DA:44,0
+DA:45,0
+FN:47,System.Boolean Features.Clientes.Cliente::EhValido()
+FNDA:25,System.Boolean Features.Clientes.Cliente::EhValido()
+DA:48,25
+DA:49,25
+DA:50,25
+DA:51,25
+FN:15,System.Void Features.Clientes.Cliente::.ctor()
+FNDA:0,System.Void Features.Clientes.Cliente::.ctor()
+DA:16,0
+DA:17,0
+DA:18,0
+FN:19,System.Void Features.Clientes.Cliente::.ctor(System.Guid,System.String,System.String,System.DateTime,System.String,System.Boolean,System.DateTime)
+FNDA:416,System.Void Features.Clientes.Cliente::.ctor(System.Guid,System.String,System.String,System.DateTime,System.String,System.Boolean,System.DateTime)
+DA:20,416
+DA:21,416
+DA:22,416
+DA:23,416
+DA:24,416
+DA:25,416
+DA:26,416
+DA:27,416
+DA:28,416
+DA:29,416
+DA:30,416
+FN:79,System.Boolean Features.Clientes.ClienteValidacao::HaveMinimumAge(System.DateTime)
+FNDA:25,System.Boolean Features.Clientes.ClienteValidacao::HaveMinimumAge(System.DateTime)
+DA:80,25
+DA:81,25
+DA:82,25
+FN:55,System.Void Features.Clientes.ClienteValidacao::.ctor()
+FNDA:25,System.Void Features.Clientes.ClienteValidacao::.ctor()
+DA:56,25
+DA:57,25
+DA:58,25
+DA:59,25
+DA:60,25
+DA:62,25
+DA:63,25
+DA:64,25
+DA:66,25
+DA:67,25
+DA:68,25
+DA:69,25
+DA:71,25
+DA:72,25
+DA:73,25
+DA:75,25
+DA:76,25
+DA:77,25
+LF:54
+LH:42
+BRF:2
+BRH:0
+FNF:14
+FNH:10
+end_of_record
+SF:C:\dev\desenvolvedor.io\03-dominando-os-testes-de-software\TestesDeSoftware\01 - Testes de Unidade\2.2 - Features\Features\Clientes\ClienteEmailNotification.cs
+FN:6,System.String Features.Clientes.ClienteEmailNotification::get_Origem()
+FNDA:4,System.String Features.Clientes.ClienteEmailNotification::get_Origem()
+DA:7,4
+FN:7,System.String Features.Clientes.ClienteEmailNotification::get_Destino()
+FNDA:4,System.String Features.Clientes.ClienteEmailNotification::get_Destino()
+DA:8,4
+FN:8,System.String Features.Clientes.ClienteEmailNotification::get_Assunto()
+FNDA:4,System.String Features.Clientes.ClienteEmailNotification::get_Assunto()
+DA:9,4
+FN:9,System.String Features.Clientes.ClienteEmailNotification::get_Mensagem()
+FNDA:4,System.String Features.Clientes.ClienteEmailNotification::get_Mensagem()
+DA:10,4
+FN:11,System.Void Features.Clientes.ClienteEmailNotification::.ctor(System.String,System.String,System.String,System.String)
+FNDA:4,System.Void Features.Clientes.ClienteEmailNotification::.ctor(System.String,System.String,System.String,System.String)
+DA:12,4
+DA:13,4
+DA:14,4
+DA:15,4
+DA:16,4
+DA:17,4
+DA:18,4
+LF:11
+LH:11
+BRF:0
+BRH:0
+FNF:5
+FNH:5
+end_of_record
+SF:C:\dev\desenvolvedor.io\03-dominando-os-testes-de-software\TestesDeSoftware\01 - Testes de Unidade\2.2 - Features\Features\Clientes\ClienteService.cs
+FN:19,System.Collections.Generic.IEnumerable`1<Features.Clientes.Cliente> Features.Clientes.ClienteService::ObterTodosAtivos()
+FNDA:5,System.Collections.Generic.IEnumerable`1<Features.Clientes.Cliente> Features.Clientes.ClienteService::ObterTodosAtivos()
+DA:20,5
+DA:21,608
+DA:22,5
+FN:24,System.Void Features.Clientes.ClienteService::Adicionar(Features.Clientes.Cliente)
+FNDA:8,System.Void Features.Clientes.ClienteService::Adicionar(Features.Clientes.Cliente)
+DA:25,8
+DA:26,8
+DA:27,4
+DA:29,4
+DA:30,4
+DA:31,8
+BRDA:26,12,1,4
+BRDA:26,12,0,8
+FN:33,System.Void Features.Clientes.ClienteService::Atualizar(Features.Clientes.Cliente)
+FNDA:0,System.Void Features.Clientes.ClienteService::Atualizar(Features.Clientes.Cliente)
+DA:34,0
+DA:35,0
+DA:36,0
+DA:38,0
+DA:39,0
+DA:40,0
+BRDA:35,12,1,0
+BRDA:35,12,0,0
+FN:42,System.Void Features.Clientes.ClienteService::Inativar(Features.Clientes.Cliente)
+FNDA:0,System.Void Features.Clientes.ClienteService::Inativar(Features.Clientes.Cliente)
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+BRDA:44,12,1,0
+BRDA:44,12,0,0
+FN:52,System.Void Features.Clientes.ClienteService::Remover(Features.Clientes.Cliente)
+FNDA:0,System.Void Features.Clientes.ClienteService::Remover(Features.Clientes.Cliente)
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+FN:58,System.Void Features.Clientes.ClienteService::Dispose()
+FNDA:0,System.Void Features.Clientes.ClienteService::Dispose()
+DA:59,0
+DA:60,0
+DA:61,0
+FN:11,System.Void Features.Clientes.ClienteService::.ctor(Features.Clientes.IClienteRepository,MediatR.IMediator)
+FNDA:12,System.Void Features.Clientes.ClienteService::.ctor(Features.Clientes.IClienteRepository,MediatR.IMediator)
+DA:12,12
+DA:13,12
+DA:14,12
+DA:15,12
+DA:16,12
+DA:17,12
+LF:35
+LH:15
+BRF:6
+BRH:2
+FNF:7
+FNH:3
+end_of_record
