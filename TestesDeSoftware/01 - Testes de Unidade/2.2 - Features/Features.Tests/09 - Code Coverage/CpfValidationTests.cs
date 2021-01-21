@@ -6,7 +6,7 @@ namespace Features.Tests
 {
     public class CpfValidationTests
     {
-        [Theory(DisplayName = "CPF Validos")]
+        [Theory]
         [Trait("Categoria", "CPF Validation Tests")]
         [InlineData("15231766607")]
         [InlineData("78246847333")]
@@ -22,7 +22,7 @@ namespace Features.Tests
             cpfValidation.EhValido(cpf).Should().BeTrue();
         }
 
-        [Theory(DisplayName = "CPF Invalidos")]
+        [Theory]
         [Trait("Categoria", "CPF Validation Tests")]
         [InlineData("15231766607213")]
         [InlineData("528781682082")]

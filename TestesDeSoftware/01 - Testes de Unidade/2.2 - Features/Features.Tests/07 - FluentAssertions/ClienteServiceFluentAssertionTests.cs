@@ -22,7 +22,7 @@ namespace Features.Tests
             _clienteService = _clienteTestsAutoMockerFixture.ObterClienteService();
         }
 
-        [Fact(DisplayName = "Adicionar Cliente com Sucesso")]
+        [Fact]
         [Trait("Categoria", "Cliente Service Fluent Assertion Tests")]
         public void ClienteService_Adicionar_DeveExecutarComSucesso()
         {
@@ -38,11 +38,11 @@ namespace Features.Tests
             // Assert
             cliente.EhValido().Should().BeTrue();
 
-            _clienteTestsAutoMockerFixture.Mocker.GetMock<IClienteRepository>().Verify(r => r.Adicionar(cliente),Times.Once);
-            _clienteTestsAutoMockerFixture.Mocker.GetMock<IMediator>().Verify(m=>m.Publish(It.IsAny<INotification>(),CancellationToken.None),Times.Once);
+            _clienteTestsAutoMockerFixture.Mocker.GetMock<IClienteRepository>().Verify(r => r.Adicionar(cliente), Times.Once);
+            _clienteTestsAutoMockerFixture.Mocker.GetMock<IMediator>().Verify(m => m.Publish(It.IsAny<INotification>(), CancellationToken.None), Times.Once);
         }
 
-        [Fact(DisplayName = "Adicionar Cliente com Falha")]
+        [Fact]
         [Trait("Categoria", "Cliente Service Fluent Assertion Tests")]
         public void ClienteService_Adicionar_DeveFalharDevidoClienteInvalido()
         {
@@ -63,7 +63,7 @@ namespace Features.Tests
             _clienteTestsAutoMockerFixture.Mocker.GetMock<IMediator>().Verify(m => m.Publish(It.IsAny<INotification>(), CancellationToken.None), Times.Never);
         }
 
-        [Fact(DisplayName = "Obter Clientes Ativos")]
+        [Fact]
         [Trait("Categoria", "Cliente Service Fluent Assertion Tests")]
         public void ClienteService_ObterTodosAtivos_DeveRetornarApenasClientesAtivos()
         {
@@ -77,14 +77,14 @@ namespace Features.Tests
             // Assert 
             //Assert.True(clientes.Any());
             //Assert.False(clientes.Count(c => !c.Ativo) > 0);
-            
+
             // Assert
             clientes.Should().HaveCountGreaterOrEqualTo(1).And.OnlyHaveUniqueItems();
             clientes.Should().NotContain(c => !c.Ativo);
 
             _clienteTestsAutoMockerFixture.Mocker.GetMock<IClienteRepository>().Verify(r => r.ObterTodos(), Times.Once);
 
-            _clienteService.ExecutionTimeOf(c=>c.ObterTodosAtivos())
+            _clienteService.ExecutionTimeOf(c => c.ObterTodosAtivos())
                 .Should()
                 .BeLessOrEqualTo(50.Milliseconds(),
                     "é executado milhares de vezes por segundo");

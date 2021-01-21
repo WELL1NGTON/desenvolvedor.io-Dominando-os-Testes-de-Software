@@ -6,8 +6,8 @@ namespace Features.Tests
 {
     public class ClienteTests
     {
-        [Fact(DisplayName = "Novo Cliente Válido")]
-        [Trait("Categoria","Cliente Trait Testes")]
+        [Fact]
+        [Trait("Categoria", "Cliente Trait Testes")]
         public void Cliente_NovoCliente_DeveEstarValido()
         {
             // Arrange
@@ -28,7 +28,7 @@ namespace Features.Tests
             Assert.Equal(0, cliente.ValidationResult.Errors.Count);
         }
 
-        [Fact(DisplayName = "Novo Cliente Inválido")]
+        [Fact]
         [Trait("Categoria", "Cliente Trait Testes")]
         public void Cliente_NovoCliente_DeveEstarInvalido()
         {

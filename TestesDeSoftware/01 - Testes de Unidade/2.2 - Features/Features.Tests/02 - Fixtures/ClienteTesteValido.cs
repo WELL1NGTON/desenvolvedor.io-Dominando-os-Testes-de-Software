@@ -11,9 +11,9 @@ namespace Features.Tests
         {
             _clienteTestsFixture = clienteTestsFixture;
         }
-        
 
-        [Fact(DisplayName = "Novo Cliente Válido")]
+
+        [Fact]
         [Trait("Categoria", "Cliente Fixture Testes")]
         public void Cliente_NovoCliente_DeveEstarValido()
         {

@@ -10,7 +10,7 @@ namespace Features.Tests
         public static bool Teste3Chamado;
         public static bool Teste4Chamado;
 
-        [Fact(DisplayName = "Teste 04"), TestPriority(3)]
+        [Fact, TestPriority(3)]
         [Trait("Categoria", "Ordenacao Testes")]
         public void Teste04()
         {
@@ -21,7 +21,7 @@ namespace Features.Tests
             Assert.False(Teste2Chamado);
         }
 
-        [Fact(DisplayName = "Teste 01"), TestPriority(2)]
+        [Fact, TestPriority(2)]
         [Trait("Categoria", "Ordenacao Testes")]
         public void Teste01()
         {
@@ -32,7 +32,7 @@ namespace Features.Tests
             Assert.False(Teste2Chamado);
         }
 
-        [Fact(DisplayName = "Teste 03"), TestPriority(1)]
+        [Fact, TestPriority(1)]
         [Trait("Categoria", "Ordenacao Testes")]
         public void Teste03()
         {
@@ -43,7 +43,7 @@ namespace Features.Tests
             Assert.False(Teste4Chamado);
         }
 
-        [Fact(DisplayName = "Teste 02"), TestPriority(4)]
+        [Fact, TestPriority(4)]
         [Trait("Categoria", "Ordenacao Testes")]
         public void Teste02()
         {

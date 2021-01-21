@@ -8,7 +8,7 @@ namespace NerdStore.Vendas.Application.Tests.Pedidos
 {
     public class AdicionarItemPedidoCommandTests
     {
-        [Fact(DisplayName = "Adicionar Item Command Válido")]
+        [Fact]
         [Trait("Categoria", "Vendas - Pedido Commands")]
         public void AdicionarItemPedidoCommand_CommandoEstaValido_DevePassarNaValidacao()
         {
@@ -23,7 +23,7 @@ namespace NerdStore.Vendas.Application.Tests.Pedidos
             Assert.True(result);
         }
 
-        [Fact(DisplayName = "Adicionar Item Command Inválido")]
+        [Fact]
         [Trait("Categoria", "Vendas - Pedido Commands")]
         public void AdicionarItemPedidoCommand_CommandoEstaInvalido_NaoDevePassarNaValidacao()
         {
@@ -43,7 +43,7 @@ namespace NerdStore.Vendas.Application.Tests.Pedidos
             Assert.Contains(AdicionarItemPedidoValidation.ValorErroMsg, pedidoCommand.ValidationResult.Errors.Select(c => c.ErrorMessage));
         }
 
-        [Fact(DisplayName = "Adicionar Item Command unidades acima do permitido")]
+        [Fact]
         [Trait("Categoria", "Vendas - Pedido Commands")]
         public void AdicionarItemPedidoCommand_QuantidadeUnidadesSuperiorAoPermitido_NaoDevePassarNaValidacao()
         {

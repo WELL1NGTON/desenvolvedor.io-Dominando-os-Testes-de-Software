@@ -329,6 +329,12 @@ Não existe uma prática exata sobre a utilização baby steps, a recomendação
 ![Leituras Indicadas](images/tdd-test-driven-development/tdd-leituras-indicadas.png)
 
 ---
+
+### Pedido - Adicionar Item - Parte 1
+
+Usei o seguinte regex para remover os DisplayNames com o vscode ```\(DisplayName\s*=\s*"[\w|\s||á]*"\)```
+
+---
 ---
 ---
 

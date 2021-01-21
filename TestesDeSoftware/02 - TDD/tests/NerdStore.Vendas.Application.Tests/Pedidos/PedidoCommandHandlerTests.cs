@@ -29,7 +29,7 @@ namespace NerdStore.Vendas.Application.Tests.Pedidos
             _pedido = Pedido.PedidoFactory.NovoPedidoRascunho(_clienteId);
         }
 
-        [Fact(DisplayName = "Adicionar Item Novo Pedido com Sucesso")]
+        [Fact]
         [Trait("Categoria", "Vendas - Pedido Command Handler")]
         public async Task AdicionarItem_NovoPedido_DeveExecutarComSucesso()
         {
@@ -44,12 +44,12 @@ namespace NerdStore.Vendas.Application.Tests.Pedidos
 
             // Assert
             Assert.True(result);
-            _mocker.GetMock<IPedidoRepository>().Verify(r=>r.Adicionar(It.IsAny<Pedido>()), Times.Once);
+            _mocker.GetMock<IPedidoRepository>().Verify(r => r.Adicionar(It.IsAny<Pedido>()), Times.Once);
             _mocker.GetMock<IPedidoRepository>().Verify(r => r.UnitOfWork.Commit(), Times.Once);
             //mocker.GetMock<IMediator>().Verify(r => r.Publish(It.IsAny<INotification>(), CancellationToken.None), Times.Once);
         }
 
-        [Fact(DisplayName = "Adicionar Novo Item Pedido Rascunho com Sucesso")]
+        [Fact]
         [Trait("Categoria", "Vendas - Pedido Command Handler")]
         public async Task AdicionarItem_NovoItemAoPedidoRascunho_DeveExecutarComSucesso()
         {
@@ -72,7 +72,7 @@ namespace NerdStore.Vendas.Application.Tests.Pedidos
             _mocker.GetMock<IPedidoRepository>().Verify(r => r.UnitOfWork.Commit(), Times.Once);
         }
 
-        [Fact(DisplayName = "Adicionar Item Existente ao Pedido Rascunho com Sucesso")]
+        [Fact]
         [Trait("Categoria", "Vendas - Pedido Command Handler")]
         public async Task AdicionarItem_ItemExistenteAoPedidoRascunho_DeveExecutarComSucesso()
         {
@@ -95,7 +95,7 @@ namespace NerdStore.Vendas.Application.Tests.Pedidos
             _mocker.GetMock<IPedidoRepository>().Verify(r => r.UnitOfWork.Commit(), Times.Once);
         }
 
-        [Fact(DisplayName = "Adicionar Item Command Inválido")]
+        [Fact]
         [Trait("Categoria", "Vendas - Pedido Command Handler")]
         public async Task AdicionarItem_CommandInvalido_DeveRetornarFalsoELancarEventosDeNotificacao()
         {

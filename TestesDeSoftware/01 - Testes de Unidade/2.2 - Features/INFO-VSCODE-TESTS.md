@@ -29,3 +29,5 @@ Obs.2.: A configuração certa caso funcionasse seria:
     "dotnet-test-explorer.autoExpandTree": true
 }
 ```
+
+workaround: Usei o seguinte regex para remover os DisplayNames com o vscode ```\(DisplayName\s*=\s*"[\w|\s||á]*"\)```

@@ -18,7 +18,7 @@ namespace Features.Tests
             _clienteTestsBogus = clienteTestsFixture;
         }
 
-        [Fact(DisplayName = "Adicionar Cliente com Sucesso")]
+        [Fact]
         [Trait("Categoria", "Cliente Service AutoMock Tests")]
         public void ClienteService_Adicionar_DeveExecutarComSucesso()
         {
@@ -32,11 +32,11 @@ namespace Features.Tests
 
             // Assert
             Assert.True(cliente.EhValido());
-            mocker.GetMock<IClienteRepository>().Verify(r => r.Adicionar(cliente),Times.Once);
-            mocker.GetMock<IMediator>().Verify(m=>m.Publish(It.IsAny<INotification>(),CancellationToken.None),Times.Once);
+            mocker.GetMock<IClienteRepository>().Verify(r => r.Adicionar(cliente), Times.Once);
+            mocker.GetMock<IMediator>().Verify(m => m.Publish(It.IsAny<INotification>(), CancellationToken.None), Times.Once);
         }
 
-        [Fact(DisplayName = "Adicionar Cliente com Falha")]
+        [Fact]
         [Trait("Categoria", "Cliente Service AutoMock Tests")]
         public void ClienteService_Adicionar_DeveFalharDevidoClienteInvalido()
         {
@@ -54,7 +54,7 @@ namespace Features.Tests
             mocker.GetMock<IMediator>().Verify(m => m.Publish(It.IsAny<INotification>(), CancellationToken.None), Times.Never);
         }
 
-        [Fact(DisplayName = "Obter Clientes Ativos")]
+        [Fact]
         [Trait("Categoria", "Cliente Service AutoMock Tests")]
         public void ClienteService_ObterTodosAtivos_DeveRetornarApenasClientesAtivos()
         {
@@ -71,7 +71,7 @@ namespace Features.Tests
             // Assert 
             mocker.GetMock<IClienteRepository>().Verify(r => r.ObterTodos(), Times.Once);
             Assert.True(clientes.Any());
-            Assert.False(clientes.Count(c=>!c.Ativo) > 0);
+            Assert.False(clientes.Count(c => !c.Ativo) > 0);
         }
     }
 }

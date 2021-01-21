@@ -10,15 +10,15 @@ namespace Features.Tests
         private readonly ClienteTestsAutoMockerFixture _clienteTestsFixture;
         readonly ITestOutputHelper _outputHelper;
 
-        public ClienteFluentAssertionsTests(ClienteTestsAutoMockerFixture clienteTestsFixture, 
+        public ClienteFluentAssertionsTests(ClienteTestsAutoMockerFixture clienteTestsFixture,
                                             ITestOutputHelper outputHelper)
         {
             _clienteTestsFixture = clienteTestsFixture;
             _outputHelper = outputHelper;
         }
-        
 
-        [Fact(DisplayName = "Novo Cliente Válido")]
+
+        [Fact]
         [Trait("Categoria", "Cliente Fluent Assertion Testes")]
         public void Cliente_NovoCliente_DeveEstarValido()
         {
@@ -37,7 +37,7 @@ namespace Features.Tests
             cliente.ValidationResult.Errors.Should().HaveCount(0);
         }
 
-        [Fact(DisplayName = "Novo Cliente Inválido")]
+        [Fact]
         [Trait("Categoria", "Cliente Fluent Assertion Testes")]
         public void Cliente_NovoCliente_DeveEstarInvalido()
         {

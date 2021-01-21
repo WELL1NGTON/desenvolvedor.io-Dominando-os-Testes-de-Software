@@ -6,7 +6,7 @@ namespace NerdStore.Vendas.Domain.Tests
 {
     public class VoucherTests
     {
-        [Fact(DisplayName = "Validar Voucher Tipo Valor Válido")]
+        [Fact]
         [Trait("Categoria", "Vendas - Voucher")]
         public void Voucher_ValidarVoucherTipoValor_DeveEstarValido()
         {
@@ -21,7 +21,7 @@ namespace NerdStore.Vendas.Domain.Tests
             Assert.True(result.IsValid);
         }
 
-        [Fact(DisplayName = "Validar Voucher Tipo Valor Inválido")]
+        [Fact]
         [Trait("Categoria", "Vendas - Voucher")]
         public void Voucher_ValidarVoucherTipoValor_DeveEstarInvalido()
         {
@@ -43,7 +43,7 @@ namespace NerdStore.Vendas.Domain.Tests
             Assert.Contains(VoucherAplicavelValidation.ValorDescontoErroMsg, result.Errors.Select(c => c.ErrorMessage));
         }
 
-        [Fact(DisplayName = "Validar Voucher Porcentagem Válido")]
+        [Fact]
         [Trait("Categoria", "Vendas - Voucher")]
         public void Voucher_ValidarVoucherPorcentagem_DeveEstarValido()
         {
@@ -57,7 +57,7 @@ namespace NerdStore.Vendas.Domain.Tests
             Assert.True(result.IsValid);
         }
 
-        [Fact(DisplayName = "Validar Voucher Porcentagem Inválido")]
+        [Fact]
         [Trait("Categoria", "Vendas - Voucher")]
         public void Voucher_ValidarVoucherPorcentagem_DeveEstarInvalido()
         {
