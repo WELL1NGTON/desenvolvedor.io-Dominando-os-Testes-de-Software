@@ -264,11 +264,34 @@ Install-Package Moq
 
 ---
 
-## Analisando a cobertura de código dos testes
+### Analisando a cobertura de código dos testes
 
 [pacote coverlet.msbuild](https://www.nuget.org/packages/coverlet.msbuild)  
 [Plugin Coverage Gutters para VSCode](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters)  
 [Code Coverage no C# com VSCode](https://medium.com/@lorranpalmeira/code-coverage-no-c-com-vscode-cfa3cb6c89d0)  
+
+---
+## TDD - Test Driven Development
+
+---
+
+### Por que utilizar TDD?
+
+![Modelo de Desenvolvimento "Tradicional"](./images/tdd-test-driven-development/tdd-modelo-desenvolvimento-tradicional.png)
+
+![O Problema](images/tdd-test-driven-development/tdd-o-problema.png)
+
+![O Problema 2](images/tdd-test-driven-development/tdd-o-problema2.png)
+
+![O Problema 3](images/tdd-test-driven-development/tdd-o-problema3.png)
+
+![Utilizando Testes Durante o Desenvolvimento](images/tdd-test-driven-development/tdd-utilizando-testes-durante-o-desenvolvimento.png)
+
+#### As Três leis do TDD
+
+1. Você **não pode escrever nenhum código até ter escrito um teste** que detecte uma possível falha.
+2. Você **não pode escrever mais testes de unidade do que o suficiente** para detectar a falha - não compilar não é ter efeito.
+3. Você **não pode escrever mais código od que o suficiente** para passar nos testes.
 
 ---
 ---
