@@ -271,6 +271,7 @@ Install-Package Moq
 [Code Coverage no C# com VSCode](https://medium.com/@lorranpalmeira/code-coverage-no-c-com-vscode-cfa3cb6c89d0)  
 
 ---
+
 ## TDD - Test Driven Development
 
 ---
@@ -292,6 +293,40 @@ Install-Package Moq
 1. Você **não pode escrever nenhum código até ter escrito um teste** que detecte uma possível falha.
 2. Você **não pode escrever mais testes de unidade do que o suficiente** para detectar a falha - não compilar não é ter efeito.
 3. Você **não pode escrever mais código od que o suficiente** para passar nos testes.
+
+---
+
+### Comece com Baby Steps
+
+É indicado para desenvolvedores que estão iniciando na prática do TDD.
+
+É utilizado quando não se tem muita confiança sobre código a ser escrito e testado.
+
+Não existe uma prática exata sobre a utilização baby steps, a recomendação é fazer um processo por vez, identificar as necessidades, avaliar o cenário e continuar.
+
+![Baby Steps](images/tdd-test-driven-development/baby-steps.png)
+
+![Produtividade x Tempo](images/tdd-test-driven-development/baby-steps-produtividade-x-tempo.png)
+
+#### Dicas para começar com TDD
+
+- Pratique os baby steps e respeite as 3 leis do TDD
+- Saiba exatamente o que precisa entregar antes de começar
+- Não deixe para descobrir a regra de negócio durante a codificação
+- Tenha uma lista de anotações ou uma documentação clara sempre a mão
+- Minta! No "green" o teste só precisa passar, depois utilize Mocks
+- Mantenha os testes simples
+- Após a escrita de alguns testes, analise a possibilidade de reaproveitamento de objetos
+- Saiba quando usar TDD, nem sempre é vantajoso
+
+#### Teste Driven Design?
+
+- O conceito de TDD pode confundir, não é sobre escrever testes e sim sobre escrever código com um bom design. (código escrito da forma certa é fácil de testar)
+- Escrever testes depois do código também ajuda, mas pode ocasionar retrabalho caso seja necessário modificar um código para possibilitar o teste.
+
+#### Leituras Indicadas
+
+![Leituras Indicadas](images/tdd-test-driven-development/tdd-leituras-indicadas.png)
 
 ---
 ---
