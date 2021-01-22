@@ -433,6 +433,20 @@ Driver do Google Chrome para utilização do Selenium
 [GitHub](https://github.com/SeleniumHQ/selenium)
 
 ---
+
+### POM - Page Object Model
+
+- É um padrão de projeto descrito por Martin Fowler.
+- Diz como criar um repositório de objetos com elementos contidos numa página Web. Sob este modelo, para cada página, deve haver uma classe correspondente.
+- Benefícios
+  - Reaproveitamento de código
+  - Código mais limpo
+  - Facilita na manutenção
+  - Maior independência dos testes como uma bateria de testes de regressão
+
+![POM - Page Object Model](images/testes-automatizados/pom-page-object-model.png)
+
+---
 ---
 ---
 
