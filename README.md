@@ -118,13 +118,13 @@ Este reconhecimento é um prêmio internacional conferido pela Microsoft aos pro
 - [x] Tipos de testes de carga (12:00)
 - [x] Ferramentas disponíveis no mercado (10:00)
 - [x] Índice de satisfação do usuário com APDEX (13:00)
-- [ ] Introdução ao JMeter (32:00)
-- [ ] Plano de testes completo com JMeter e BlazeMeter (35:00)
-- [ ] Teste os seus conhecimentos (3:00)
+- [x] Introdução ao JMeter (32:00)
+- [x] Plano de testes completo com JMeter e BlazeMeter (35:00)
+- [x] Teste os seus conhecimentos (3:00)
 
 ### Encerramento
 
-- [ ] Palavras Finais (8:00)
+- [x] Palavras Finais (8:00)
 
 ---
 
