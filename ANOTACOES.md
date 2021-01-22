@@ -161,13 +161,13 @@ Framework muito consagrado.
 #### Instalação do framework
 
 ```powershell
-Install-Package xunit
+PM> Install-Package xunit
 ```
 
 #### Instalação para reconhecimento do Visual Studio
 
 ```powershell
-Install-Package xunit.runner.visualstudio
+PM> Install-Package xunit.runner.visualstudio
 ```
 
 #### Links
@@ -254,7 +254,7 @@ Uma classe física que simula o objeto costuma ser chamada de Fake, mas na teori
 Instalação do framework
 
 ```powershell
-Install-Package Moq
+PM> Install-Package Moq
 ```
 
 #### Links
@@ -371,9 +371,33 @@ Não existe uma prática exata sobre a utilização baby steps, a recomendação
 
 Existem várias aplicações/suits de apoio ao desenvolvimento como por exemplo o [Visual Studio DevOps](https://azure.microsoft.com/pt-br/services/devops/), ou até mesmo o [GitHub](https://github.com/) colocando issues, ou pode escrever essas estórias em papéis.
 
-### Users Stories - Visual Studio
+#### Users Stories - Visual Studio
 
 ![Visual Studio](images/bdd/user-stories-visual-studio.png)
+
+---
+
+### Ferramentas e configuração
+
+#### SpecFlow
+
+[![SpecFlow](https://www.specflow.org/wp-content/uploads/2016/07/SF_Logo.png)](https://specflow.org/)
+
+- Versão do Cucumber para .NET
+- Utiliza o Gherkin Parser para transformar o texto em ações
+- Compatível com todas as versões do VS atuais
+
+Instalação do framework
+
+```powershell
+PM> Install-Package SpecFlow
+```
+
+Instalação para reconhecimento do Visual Studio com XUnit
+
+```powershell
+PM> Install-Package SpecFlow.xUnit
+```
 
 ---
 ---
