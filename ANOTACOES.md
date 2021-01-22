@@ -484,6 +484,22 @@ Como a aplicação irá se comportar se um número não previsto de requisiçõe
 [Locust](https://locust.io/)  
 
 ---
+
+### Índice de satisfação do usuário com APDEX
+
+#### Exemplo classificação
+
+![Exemplo](images/testes-de-carga/classificacao-do-response-time-exemplo.png)
+
+#### Fórmula do APDEX
+
+![Fórmula do APDEX](images/testes-de-carga/formula-apdex.png)
+
+#### APDEX Score
+
+![APDEX Score](images/testes-de-carga/apdex-score.png)
+
+---
 ---
 ---
 
