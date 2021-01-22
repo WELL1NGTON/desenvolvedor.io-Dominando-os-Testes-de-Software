@@ -447,6 +447,43 @@ Driver do Google Chrome para utilização do Selenium
 ![POM - Page Object Model](images/testes-automatizados/pom-page-object-model.png)
 
 ---
+
+## Testes de Carga
+
+---
+
+### Tipos de testes de carga
+
+Quais são os tipos de testes disponíveis e quais os objetivos deles?
+
+#### Teste de desempenho
+
+Sua aplicação possui 5000 usuários. Será que ela é capaz de suportar 1/3 dos usuários simultaneamente?
+
+#### Teste de carga
+
+Quantas transações serão suportadas se o número de usuários aumentar em 50%?
+
+#### Teste de Stress
+
+Como a aplicação irá se comportar se um número não previsto de requisições for disparado simultaneamente?
+
+---
+
+### Ferramentas disponíveis no mercado
+
+![Ferramentas](images/testes-de-carga/ferramentas.png)
+
+[Azure Devops Load Testing - Interrompido](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/)  
+[Apache JMeter](https://jmeter.apache.org/)*  
+[BlazeMeter](https://www.blazemeter.com/)*  
+[Gatling](https://gatling.io/)  
+[Artillery.io](https://artillery.io/)  
+[AutoCannon](https://github.com/mcollina/autocannon)  
+[West Wind WebSurge](https://websurge.west-wind.com/)  
+[Locust](https://locust.io/)  
+
+---
 ---
 ---
 
