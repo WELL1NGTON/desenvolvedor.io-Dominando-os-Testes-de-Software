@@ -20,7 +20,7 @@ namespace NerdStore.WebApp.Tests
             _testsFixture = testsFixture;
         }
 
-        [Fact(DisplayName = "Adicionar item em novo pedido"), TestPriority(1)]
+        [Fact, TestPriority(1)]
         [Trait("Categoria", "Integração API - Pedido")]
         public async Task AdicionarItem_NovoPedido_DeveRetornarComSucesso()
         {
@@ -41,7 +41,7 @@ namespace NerdStore.WebApp.Tests
             postResponse.EnsureSuccessStatusCode();
         }
 
-        [Fact(DisplayName = "Remover item em pedido existente"), TestPriority(2)]
+        [Fact, TestPriority(2)]
         [Trait("Categoria", "Integração API - Pedido")]
         public async Task RemoverItem_PedidoExistente_DeveRetornarComSucesso()
         {

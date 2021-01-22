@@ -16,7 +16,7 @@ using NerdStore.Catalogo.Data;
 using NerdStore.Vendas.Data;
 using NerdStore.WebApp.MVC.Setup;
 using Swashbuckle.AspNetCore.Swagger;
-
+//"Server=(localdb)\\mssqllocaldb;Database=TestesNerdStoreDb;Trusted_Connection=True;MultipleActiveResultSets=true"
 namespace NerdStore.WebApp.MVC
 {
     public class Startup
@@ -109,7 +109,7 @@ namespace NerdStore.WebApp.MVC
             app.UseCookiePolicy();
 
             app.UseAuthentication();
-            
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

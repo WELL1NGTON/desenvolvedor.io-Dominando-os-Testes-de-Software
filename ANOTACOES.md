@@ -274,6 +274,10 @@ Install-Package Moq
 
 ## TDD - Test Driven Development
 
+### OBSERVAÇÃO IMPORTANTE
+
+Usei o seguinte regex para remover os DisplayNames com o vscode ```\(DisplayName\s*=\s*"[\w|\s||á]*"\)```
+
 ---
 
 ### Por que utilizar TDD?
@@ -330,9 +334,22 @@ Não existe uma prática exata sobre a utilização baby steps, a recomendação
 
 ---
 
-### Pedido - Adicionar Item - Parte 1
+## BDD
 
-Usei o seguinte regex para remover os DisplayNames com o vscode ```\(DisplayName\s*=\s*"[\w|\s||á]*"\)```
+---
+
+### Sobre o que é?
+
+#### Sobre o que é?
+
+- Envolver as pessoas no processo através do "Desenvolvimento de fora para dentro" (Outside-in development).
+- Escrever estórias para apresentar as necessidades de um usuário e explicar as funcionalidades da aplicação
+- Desenvolver a aplicação guiada por cenários de testes dos comportamentos descritos nas estórias do usuário
+- Escrever testes de integração ou automação para validar os comportamentos como uma bateria de testes de regressão
+
+### BDD - Ciclo de desenvolvimento
+
+![Behavior Drive Development](images/bdd/behavior-driven-development.png)
 
 ---
 ---

@@ -19,7 +19,7 @@ namespace NerdStore.WebApp.Tests
             _testsFixture = testsFixture;
         }
 
-        [Fact(DisplayName = "Realizar cadastro com sucesso"), TestPriority(1)]
+        [Fact, TestPriority(1)]
         [Trait("Categoria", "Integração Web - Usuário")]
         public async Task Usuario_RealizarCadastro_DeveExecutarComSucesso()
         {
@@ -54,7 +54,7 @@ namespace NerdStore.WebApp.Tests
             Assert.Contains($"Hello {_testsFixture.UsuarioEmail}!", responseString);
         }
 
-        [Fact(DisplayName = "Realizar cadastro senha fraca"), TestPriority(3)]
+        [Fact, TestPriority(3)]
         [Trait("Categoria", "Integração Web - Usuário")]
         public async Task Usuario_RealizarCadastroComSenhaFraca_DeveRetornarMensagemDeErro()
         {
@@ -92,7 +92,7 @@ namespace NerdStore.WebApp.Tests
             Assert.Contains("Passwords must have at least one uppercase (&#x27;A&#x27;-&#x27;Z&#x27;).", responseString);
         }
 
-        [Fact(DisplayName = "Realizar login com sucesso"), TestPriority(2)]
+        [Fact, TestPriority(2)]
         [Trait("Categoria", "Integração Web - Usuário")]
         public async Task Usuario_RealizarLogin_DeveExecutarComSucesso()
         {

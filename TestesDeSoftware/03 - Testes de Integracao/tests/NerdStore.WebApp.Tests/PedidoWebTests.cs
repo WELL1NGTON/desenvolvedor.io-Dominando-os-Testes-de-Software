@@ -20,7 +20,7 @@ namespace NerdStore.WebApp.Tests
             _testsFixture = testsFixture;
         }
 
-        [Fact(DisplayName = "Adicionar item em novo pedido")]
+        [Fact]
         [Trait("Categoria", "Integração Web - Pedido")]
         public async Task AdicionarItem_NovoPedido_DeveAtualizarValorTotal()
         {
