@@ -400,10 +400,43 @@ PM> Install-Package SpecFlow.xUnit
 ```
 
 ---
+
+## Testes Automatizados
+
+---
+
+### Apresentação
+
+- Utilização do Selenium
+- Page Object Model
+- Testes de aceitação / regressão com SpecFlow
+- Boas práticas no design dos testes
+
+### Apresentando o Selenium
+
+[![Selenium](https://www.selenium.dev/images/selenium_logo_large.png)](https://www.selenium.dev/)
+
+- Realiza a autoação de ações para browsers
+- Utilizado para automatização de testes e Web Crawling
+- Compatível com Visual Studio
+
+Instalação do framework
+
+```powershell
+PM> Install-Package Selenium.WebDriver
+```
+
+Driver do Google Chrome para utilização do Selenium  
+<https://chromedriver.chromium.org/downloads>
+
+[selenium.dev](https://www.selenium.dev/)  
+[GitHub](https://github.com/SeleniumHQ/selenium)
+
+---
 ---
 ---
 
-## Pacotes utilizados nos testes
+## Pacotes / Softwares utilizados nos testes
 
 [MOQ](https://github.com/moq/moq4)  
 [Moq.AutoMocker](https://github.com/moq/Moq.AutoMocker)  
@@ -411,6 +444,10 @@ PM> Install-Package SpecFlow.xUnit
 [xunit.runner.visualstudio](https://github.com/xunit/visualstudio.xunit)  
 [Fluent Assertions](https://fluentassertions.com/)  
 [Bogus for .NET](https://github.com/bchavez/Bogus)  
+
+[SpecFlow](https://specflow.org/)  
+[cucumber](https://github.com/cucumber/cucumber)  
+[Selenium](https://github.com/SeleniumHQ/selenium)  
 
 ---
 ---
