@@ -352,6 +352,30 @@ Não existe uma prática exata sobre a utilização baby steps, a recomendação
 ![Behavior Drive Development](images/bdd/behavior-driven-development.png)
 
 ---
+
+### User Stories
+
+#### User Stories
+
+![User Stories](images/bdd/user-stories.png)
+
+![User Stories Example](images/bdd/user-stories-examplo.png)
+
+#### Cenários
+
+![User Stories Cenários](images/bdd/user-stories-cenario.png)
+
+![User Stories Cenário Exemplo](images/bdd/user-stories-cenario-exemplo.png)
+
+![User Stories Cenário Exemplo 02](images/bdd/user-stories-cenario-exemplo2.png)
+
+Existem várias aplicações/suits de apoio ao desenvolvimento como por exemplo o [Visual Studio DevOps](https://azure.microsoft.com/pt-br/services/devops/), ou até mesmo o [GitHub](https://github.com/) colocando issues, ou pode escrever essas estórias em papéis.
+
+### Users Stories - Visual Studio
+
+![Visual Studio](images/bdd/user-stories-visual-studio.png)
+
+---
 ---
 ---
 
