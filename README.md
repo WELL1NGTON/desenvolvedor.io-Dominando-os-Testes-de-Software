@@ -18,6 +18,10 @@ Foi reconhecido como Most Valuable Professional (MVP) pela Microsoft na competê
 
 Este reconhecimento é um prêmio internacional conferido pela Microsoft aos profissionais de maior destaque no mercado, existem cerca de 3.500 MVPs no mundo e 110 MVPs no Brasil, sendo 40 deles na competência de desenvolvimento de software.
 
+## Certificado
+
+[![certificado desenvolvedor.io](images/50583afd4b96db5033c1bce6509bc8620f903c254e7377d3600085cb848876ec.png)](https://desenvolvedor.io/certificados/5b3bd1ee-3cfd-4550-a0e7-2217cda86d94/validar)
+
 ## Progresso do Curso
 
 - [x] Apresentação (1:00)
